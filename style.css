@@ -1003,3 +1003,37 @@ footer {
     background: var(--primary);
     transform: translateY(-5px);
 }
+
+/* REDES SOCIALES */
+
+.contact-socials {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 22px;
+}
+
+.contact-socials a {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--surface);
+    color: var(--primary-dark);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+
+    font-size: 21px;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.contact-socials a:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    transform: translateY(-4px);
+}
